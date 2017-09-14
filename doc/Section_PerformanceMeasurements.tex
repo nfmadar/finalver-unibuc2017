@@ -1,0 +1,30 @@
+\section {M;asura performan'tei modelelor}
+\subsection{Root mean squared error - RMSE}
+
+\paragraph{}
+RMSE este des folosit;a 'si este o metric;a general;a de erori pentru predic'tiile numerice. Comparat;a cu alte metrici, cum ar fi cea a mediei absolute a erorilor, RMSE amplific;a 'si scoate 'in eviden't;a toate erorile mari.
+\par
+Formula pentru RMSE este:
+\begin{equation}
+RMSE = \sqrt{\frac {1} {n} \displaystyle \sum_{i=1}^{n}(y_i -\hat  y_i)^2}
+\end{equation}
+
+\subsection{Mean Magnitude Relative Error - MMRE}
+\paragraph{}
+Metrica MMRE este una dintre cele mai folosite 'in interpretarea acurate'tei unui model estimativ de cost. 
+Pentru a ajunge la calculul MMRE este nevoie ca ini'tial s;a fie calculat;a pentru fiecare punct din date metrica MRE (mean relative error), cu formula
+\begin{equation}
+MRE_i = \frac {|y_i - \hat y_i|} {y_i}
+\end{equation}
+Av'and MRE calculat pentru toate punctele, MMRE este definit ca
+\begin{equation}
+MMRE = \frac {1} {N} \displaystyle \sum_{i=1}^{N}MRE_i
+\end{equation}
+\subsection{PRED(25)}
+\paragraph{}
+PRED(25) este o alt;a metric;a utilizat;a pentru a interpreta acurate'tea unui model estimativ de cost. Aceast;a m;asoar;a c'ate din estim;arile f;acute se 'incadreaz;a 'intr-o rat;a de +/- 25\% fa't;a de valorea real;a.
+\begin{equation}
+PRED(25) = \frac{1} {N} \displaystyle \sum_{i=1}^{N} \begin {cases} 1 \quad \text{dac;a $MRE_i \leq x$} \\
+										       0 \quad \text {altfel}
+							 	\end{cases}
+\end{equation}

@@ -1,0 +1,97 @@
+\section{Logic;a fuzzy}
+\subsection{Preliminarii}
+
+\paragraph{}
+
+'In contrast cu mul'timile clasice (\textit{crisp}), mul'timile fuzzy trateaz;a apartenen'ta la o mul'time printr-o func'tie, numit;a func'tie de apartenen't;a, ce indic;a gradul de apartenen't;a al unui element 'in raport cu mul'timea. 'In timp ce mul'timile clasice fac o distinc'tie clar;a, folosind func'tia caracteristic;a, 'intre elementele ce sunt 'in respectiva mul'time 'si cele care nu, mul'timile fuzzy vor indica apartenen'ta, de obicei printr-un grad din intervalul $[0, 1]$, 'in func'tie de c'at de mult elementul respectiv 'indepline'ste propriet;a'tile mul'timii.
+Formal, fie $A = {a_{1}, a_{2}, ... , a_{n}}$ o mul'time. Func'tia caracteristic;a a mul'timii a este:
+\begin{equation}
+\chi_{A} : A \to \{0, 1\},\
+\chi(x) = 				\begin{cases}
+						1 & \quad \text{dac;a } x \in A \\
+						0 & \quad \text{dac;a } x \notin A
+					\end{cases}
+\end{equation}
+\par
+'In cazul logicii fuzzy, func'tia de apartenen't;a este definit;a ca:
+\begin{equation}
+\mu_{A} : X \to [0, 1]
+\end{equation}
+Unde $\mu(x)$ va fi definit'a 'in func'tie de particularit;a'tile apartenen'tei la mul'timea $X$. Deci, observ'am faptul c;a acum exist;a o metod;a de a ob'tine gradele de apartenen't;a datorit;a codomeniului fiind un interval, nu o mul'time discret;a.
+Klir et al. \cite{klirfuzzy} men'tioneaz;a c;a importan'ta variabilelor fuzzy const;a 'in faptul c;a ele faciliteaz;a tranzi'tiile graduale 'intre st;ari, 'si, prin urmare, posed;a o capabilitate inerent;a de a exprima 'si de a lucra cu incertitudini de observa'tie 'si de m;asurare, 'in contrast cu variabilele crisp, ce nu au aceast;a putere. Mai mult, de'si variabilele crisp sunt definite corect din punct de vedere matematic, acestea nu pot fi realiste atunci c'and modeleaz;a situa'tii din lumea real;a, unde erorile de m;asurare sunt imposibil de evitat. 
+\par
+Putem defini 'in continuare urm;atoarele opera'tii asupra unei mul'timi fuzzy:
+\begin{equation}
+\bar{A}(x) = 1 - A(x)
+\end{equation}
+\begin{equation}
+(A \cap B) (x) = min[A(x), B(x)]
+\end{equation}
+\begin{equation}
+(A \cup B) (x) = max[A(x), B(x)]
+\end{equation}
+pentru to'ti $x \in X$. Aceste opera'tii se numesc opera'tii fuzzy standard;\ ele mai sunt cunoscute 'si sub numele de complement, intersec'tie, respectiv reuniune. Una dintre propriet;a'tile remarcabile 'si dezirabile ale acestor opera'tii este faptul c;a, av'and o eroare $e$ asociat;a gradelor de apartenen't;a $A(x)$ 'si $B(x)$, atunci eroarea maxim;a asociat;a cu gradul de apartenen't;a a lui $x$ 'in $\bar{A}(x)$, $A \cap B$ 'si $A \cup B$ r;am'ane e. Majoritatea celorlalte opera'tii fuzzy nu au aceast;a proprietate (Klir, p. 51).
+\par
+Din toat;a varietatea de mul'timi fuzzy, o importan't;a deosebit;a o au mul'timile fuzzy ce sunt definite peste mul'timea $\mathbb{R}$ a numerelor reale. Func'tiile de apartenen't;a ale acestor mul'timi, care sunt de forma
+\begin{equation}
+A : \mathbb{R} \to [0, 1]
+\end{equation}
+au, 'in mod evident, o interpretare cantitativ;a, 'si pot fi, 'in anumite cazuri, privite ca fiind numere fuzzy sau intervale fuzzy. Pentru a putea ob'tine aceast;a viziune asupra lor, ele trebuie s;a modeleze concep'tia noastr;a intuitiv;a de aproximare a numerelor sau intervalelor, i.e. "numere care sunt "aproape" de un num;ar real dat" sau "numere care sunt "aproape" de un interval de numere reale dat".
+\par
+Av'and conceptul de num;ar fuzzy putem acum introduce no'tiunea de variabile fuzzy cantitative. Acestea sunt variabile ale c;aror st;ari sunt numere fuzzy. Dac;a, 'in plus, aceste numere fuzzy modeleaz;a concepte lingvistice, precum "foarte mic", "mic", "mediu" etc., interpretate sub un anumit context, atunci construc'tia rezultant;a se nume'ste variabil;a lingvistic;a.
+\par
+Fiecare variabil;a lingvistic;a are st;arile exprimate similar cu felul 'in care numerele fuzzy sunt exprimate 'in func;tie de o variabil;a de baz;a, unde aceste numere fuzzy sunt numere reale 'incadrate 'intr-un anumit interval. Astfel, termenii lingvistici ai unei variabile lingvistice reprezint;a valori aproximative ale unei variabile de baza, 'si sunt capturate ca atare de c;atre numere fuzzy.
+\par
+Orice variabil;a lingvistic;a este caracterizat;a de c;atre un cvintuplu $(v, T, X, g, m)$, unde $v$ este numele variabilei, $T$ este mul'timea termenilor lingvistici ai lui $v$ care se refer;a la o variabil;a de baz;a ale ca;rei valori acoper;a o mul'time universal;a $X$, $g$ este o regul;a sintactic;a (o gramatic;a) pentru a genera termeni lingvistici, iar m este o regul;a semantic;a ce atribuie fiec;arui termen $t \in T$ semnifica'tia sa, $m(t)$, care este o mul'time fuzzy peste X (i.e. $m : T \to \mathcal{F}(X)$), unde $\mathcal{F}(X)$ este analogul mul'timii p;ar'tilor din mul'timile clasice pentru mul'timi fuzzy.
+\par
+Putem, a'sadar, observa cum modelul COCOMO poate fi reprezentat cu u'surin't;a 'in raport cu mul'timi fuzzy, put'and modela fiecare caracteristic;a sub form;a de variabile lingvistice.
+\par
+
+\subsection{Sisteme fuzzy}
+\par
+'In general, un sistem fuzzy este un sistem ce con'tine una sau mai multe variabile care prime'ste valori peste st;ari care sunt mul'timi fuzzy. Pentru fiecare variabil;a, mul'timile fuzzy sunt definite peste o mul'time universal;a relevant;a, care este, de obicei, un interval de numere reale. 'In acest caz particular, dar totu'si important, mul'timile fuzzy sunt numere fuzzy, iar variabilele asociate sunt variabile lingvistice.
+\par
+Reprezentarea st;arilor variabilelor este un mod de a cuantiza variabilele. Datorit;a preciziei finite pe care orice metod;a de m;asurare o are, cuantizarea potrivit;a, care poate reflecta limitarea m;asur;atorilor, este inevitabil;a indiferent daca variabila modeleaz;a un atribut al lumii reale sau nu. Intervalul numerelor reale ce reprezint;a un spectru de valori ale variabilei este parti'tionat 'in subintervale corespunz;atoare. Valorile distincte din fiecare interval nu pot fi distinse de c;atre instrumentele de m;asur;a, 'si, prin urmare, sunt considerate echivalente. Subintervalele sunt etichetate cu numere reale corespunz;atoare (numere reale relevante cu eroare de o cifr;a semnificativ;a, dou;a cifre semnificative etc), iar aceste etichete sunt considerate st;arile variabilei;\ st;arile oric;arei variabile cuantizate sunt deci reprezentan'ti ai unei clasde de echivalen't;a pentru valoarea real;a a variabilei. Fiecare stare a unei variabile cuantizate este asociat;a cu incertitudine legat;a de valoarea real;a a variabilei. Aceast;a incertitudine poate fi m;asurat;a dup;a dimensiunea clasei de echivalen't;a.
+
+\subsection{Clusterizare subtractiv;a}
+\paragraph{}
+
+Scopul clusteriz;arii este de a produce grup;ari ale datelor dintr-o mul'time mare, astfel 'inc'at s;a se produc;a o reprezentare natural;a a comportamentului unui sistem. Unul dintre cei mai studia'ti algoritmi de clusterizare este fuzzy C-means (FCM) \cite{fcmcluster}. Algoritmul FCM se bazeaz;a pe o optimizare iterativ;a de minimizare a func'tiei de cost:
+\begin{equation}
+J = \displaystyle \sum_{k=1}^{n} \sum_{i=1}^{c} \mu_{ik}^{m} ||x_{k} - v_{i}||^2
+\end{equation}
+unde $n$ este num;arul de puncte de date, $c$ este num;arul de clustere, $x_{k}$ este cel de-al $k$-lea punct de date, $v_{i}$ este al $i$-lea centru de cluster, $\mu_{ik}$ este gradul de apartenen't;a al celui de-al $k$-lea punct de date 'in cel de-al $i$-lea cluster, iar $m$ este o constant;a mai mare dec'at 1 (de obicei se alege m = 2). Gradul de apartenen't;a $\mu_{ik}$ este definit de:
+\begin{equation}
+\mu_{ik} = \frac {1} {\sum_{j=1}^{r} (\frac {||x_{k} - v_{i}||} {||x_{k} - v{j}||})^{2 / (m-1)}}
+\end{equation}
+\par
+Pornind cu num;arul dorit de clustere $c$ 'si o estimare ini'tial;a pentru fiecare centru de cluster $v_{i}, \ i = \overline {1,c}$ algoritmul FCM converge c;atre o solu'tie pentru $v_{i}$ care reprezint;a fie un punct de minim local, fie un punct 'sa al func'tiei de cost. Calitatea solu'tiei, la fel ca 'si 'in alte probleme de optimizare neliniar;a, depinde de valorile ini'tiale, num;arul de clustere $c$ 'si centrele ini'tiale.
+\par
+Algoritmul de clusterizare subtractiv;a \cite{subclustering} nu are nevoie de o estimare a priori a num;arului de clustere, fiind un algoritm rapid 'si robust pentru generarea clusterelor 'si identificarea modelelor fuzzy. Vom prezenta 'in continuare construirea acestuia.
+\par
+Fie o mul'time de $n$ puncte $\{x_1, .., x_n\}$ 'intr-un spa'tiu $M$-dimensional. Presupunem c;a aceste puncte au fost normalizate 'in fiecare dimensiune astfel 'inc'at intervalele coordonatelor din fiecare dimensiune sunt de lungimi egale. Consider;am fiecare punct de date ca fiind un poten'tial candidat pentru a deveni un centru de cluster, 'si definim o m;asur;a a poten'tialului punctului $x_{i}$ ca:
+\begin{equation}
+P_{i} = \displaystyle \sum_{j=1}^{n} e^{-\alpha||x_{i} - x{j}||^{2}}
+\end{equation}
+unde
+\begin{equation}
+\alpha = \frac {4} {r_{a}^{2}}
+\end{equation}
+iar $r_{a}$ este o constant;a pozitiv;a. Astfel, m;asura poten'tialului pentru un punct este func'tia de distan't;a fa't;a de toate celelalte puncte. Un punct cu foarte multe valori 'in vecin;atate va avea un poten'tial mare. Constanta $r_{a}$ este raza ce define'ste vecin;atatea, punctele din afara vecin;at;a'tii av'and o influen't;a aproape neglijabil;a asupra poten'tialului.
+\par
+Dup;a ce am calculat poten'tialul fiec;arui punct, select;am punctul cu cel mai mare poten'tial ca fiind primul centru de cluster. Fie $x_{1}^{*}$ pozi'tia primului cluster 'si $P_{1}^{*}$ valoarea poten'tialului s;au. Putem recalcula poten'tialul fiec;arui punct $x_i$ dup;a formula:
+\begin{equation}
+P_{i} \leftarrow P_i - P_1^{*}e^{-\beta||x_{i} - x_{1}^{*}||^{2}}
+\end{equation}
+unde
+\begin{equation}
+\beta = \frac {4} {r_h^2}
+\end{equation}
+'si $r_h$ este o constant;a pozitiv;a. Astfel, se scade poten'tialul tuturor punctelor din vecin;atatea centrului 'in func'tie de distan'ta lor fa't;a de el, reduc'and posibilitatea ca acestea s;a devin;a la r'andul lor centre. $r_h$ define'ste raza vecin;at;a'tii care va avea influen't;a asupra reducerii de poten'tial ale punctelor.
+\par
+C'and poten'tialul tuturor punctelor a fost actualizat se selecteaz;a urm;atorul punct cu cel mai mare poten'tial ca fiind cel de-al doilea centru de cluster, repet'and opera'tia de la (5.11) asupra acestuia. 'In general, actualizarea celui de al $k$-lea centru de cluster va fi
+\begin{equation}
+P_{i} \leftarrow P_i - P_k^{*}e^{-\beta||x_{i} - x_{k}^{*}||^{2}}
+\end{equation}
+unde $x_k^*$ este pozi'tia celui de-al $k$-lea centru de cluster 'si $P_k^*$ este valoarea poten'tialului s;au.
+

@@ -1,0 +1,25 @@
+\section{Introducere}
+
+\paragraph{}
+
+Prin lucrarea de fa't;a dorim s;a prezent;am un studiu asupra re'telelor neuro-fuzzy aplicate peste modelul COCOMO (\textit{Constructive Cost Model}), astfel 'inc'at s;a se poat;a ob'tine o estimare a dezvolt;arii unui proiect software plec;and de la factorii de cost 'si dimensiunea sa. Metoda prezentat;a este centrat;a pe re'telele ANFIS (\textit{Adaptive neuro-fuzzy inference system}), un tip de re'tele neuronale relativ nou, articolul 'in care au fost definite fiind publicat 'in 1993.
+
+\par
+F;ar;a a intra in detalii deocamdat;a, re'telele neuro-fuzzy, datorit;a faptului c;a sunt alc;atuite dintr-o re'tea neuronal;a 'si un sistem de inferen't;a fuzzy, ofer;a at'at puterea de 'inv;a'tare a re'telelor neuronale clasice, c'at 'si flexibilitatea logicii fuzzy de a lucra cu date incerte \cite{anfis}. Deoarece, 'in mod inerent, orice estimare este supus;a subiectivit;a'tii, 'si nici modelul COCOMO nu ofer;a o metod;a riguroas;a pentru alegerea factorilor de cost, este de 'in'teles c;a o predic'tie de cost pleac;a de la premisa c;a datele de intrare sunt \textit{subiective}, i.e. au un oarecare grad de incertitudine. Astfel, problema de fa't;a devine un candidat bun pentru o re'tea neuro-fuzzy. 
+
+\par
+Modelul COCOMO dateaz;a din 1981 'in cartea lui Barry W. Boehm \textit{"Software Engineering Economics"} \cite{boehm}, fiind un model pentru estimarea efortului, costului si gestion;arii timpului de dezvoltare al proiectelor software. Acesta este o combina'tie de trei modele cu niveluri diferite de detalii 'si complexitate:
+\begin{itemize}
+\item Basic: ofer;a o estimare rapid;a;\ se preteaz;a 'in stagiile precare ale dezvolt;arii
+\item Intermediate: estim;arile devin mai precise, sunt necesare caracteristici ale proiectului 'si un stagiu mai matur de dezvoltare
+\item Advanced: cel mai detaliat dintre toate trei, necesit;a cea mai mult;a informa'tie
+\end{itemize}
+Lucrarea trateaz;a nivelul \textit{Intermediate} al COCOMO, acesta oferind un echilibru bun 'intre datele de intrare (15 factori de cost 'si o estimare numeric;a a dimensiunii proiectului 'in linii de cod surs;a) 'si acurate'tea estim;arii efortului 'in \textit{man-months}. 
+
+\par
+'In afara sec'tiunilor de introducere, lucrarea este 'imp;ar'tit;a 'in dou;a p;ar'ti. 'In prima parte vom prezenta aspectele teoretice pentru a fundamenta 'si analiza tehnicile folosite 'in construirea 'si antrenarea unei re'tele neuro-fuzzy peste modelul COCOMO. 'In cea de-a doua parte lucrarea va prezenta rezultatele ob'tinute, f;ac'and 'si o compara'tie sumar;a cu rezultatele ce au fost ob'tinute deja 'in domeniu.
+
+\par
+Lucrarea se 'incheie printr-o compara'tie cu o re'tea neuronal;a clasic;a, pentru a expune diferen'tele fa't;a de un model conven'tional 'si bine stabilit 'in acest domeniu pentru problemele de \textit{fitting}.
+
+\par

@@ -1,0 +1,46 @@
+\section{Prezentarea Domeniului}
+
+\paragraph{}
+
+\par
+Exist;a o mul'time de articole scrise at'at pe tema estim;arii costurilor de dezvoltare folosind COCOMO, c'at 'si pentru estimarea acestora folosind tehnici neuro-fuzzy. Vom prezenta 'in continuare, 'in mod sumar, dou;a articole pentru a oferi lucr;arii de fa't;a un context 'si o 'incadrare 'in domeniu.
+\par
+Primul articol pe care 'il vom prezenta este "COCOMO Estimates Using Neural Networks" \cite{cocomoneuralnets}, o lucrare ce prezint;a rezultatele experimentale ale estim;arii modelului COCOMO folosind o re'tea neuronal;a cu trei straturi. Kaushik et al. prezint;a o metodologie de 'inv;a'tare pe setul de date COCOMO disponibil public, evalu'and performan'ta arhitecturii folosind criteriul de evaluare MRE (\textit{Magnitude of Relative Error}). Autorii men'tioneaz;a c;a urm;aresc ob'tinerea unei re'tele cu un num;ar c'at mai mic de straturi de perceptroni 'si de noduri, astfel 'inc'at performan'tele re'telei s;a fie c'at mai bune, dar complexitatea acesteia, 'si, implicit, timpul necesar pentru antrenare s;a fie minimizat.
+\par
+Av'and ponderile $W_{i}, i = \overline{1, 17}$ ini'tializate cu 1, rata de 'inv;a'tare $\alpha = 0.001$ 'si biasul $b = 1$, algoritmul propus este prezentat 'in 'sapte pa'si:
+\begin{enumerate}
+\item Execut;a pa'sii 2-7 p'an;a c'and condi'tia de oprire este fals;a.
+\item Execut;a pa'sii 3-6 pentru fiecare pereche de antrenare.
+\item Stratul de intrare prime'ste semnalul de intrare 'si 'il trimite c;atre stratul ascuns prin aplicarea func'tiilor identitate de activare pentru toate nodurile de intrare $v_{i}, i = \overline{1, 17}$.
+\item Fiecare nod ascuns 'i'si 'insumeaz;a semnalele de intrare ponderate pentru a calcula ie'sirea re'telei dup;a formula:
+\begin{equation} y_{in j} = b_{j} + \displaystyle\sum_{i=1}^{17} v_{i}W_{ij} \end{equation}
+Func'tia de activare a perceptronului $f(y_{in})$ este aplicat;a pentru fiecare nod, unde 
+\begin{equation}
+f(y_{in}) = \begin{cases}
+		1  & \quad \text{dac;a } y_{in} > \theta \\
+		0  & \quad \text{dac;a } -\theta \leq y_{in} \leq \theta\\
+		-1 & \quad \text{dac;a } y_{in} < -\theta
+\end{cases}
+\end{equation}
+este func'tia de activare, cu $\theta$ fiind o valoare de prag.
+\item Calculeaz;a ie'sirile (i.e. efortul) pe stratul de ie'sire folosind aceea'si procedur;a ca 'in pasul 4 consider'and toate ponderile pentru $j = \overline{1, 5}$ ca fiind $1$.
+\item Compar;a efortul real cu cel estimat;\ dac;a diferen'ta este 'in limitele acceptate atunci rezultatul este acceptat, altfel ponderile sunt actualizate dup;a:
+\begin{equation}
+W_{i}(nou) = W_{i}(vechi) + \alpha \cdot intrare(i)
+\end{equation}
+\item Verific;a dac;a rezultatele se supun condi'tiei de operire i.e. dac;a nu exist;a nicio schimbare 'in ponderi atunci opre'ste procesul de antrenare, altfel reporne'ste de la pasul 2.
+\end{enumerate}
+
+Folosind metoda prezentat;a, autorii 'incheie articolul ajung'and la concluzia c;a o re'tea neuronal;a ofer;a o acurate'te acceptabil;a pentru predic'tie asupra datelor din setul de date COCOMO '81., 'incerc'and s;a 'il modeleze folosind o re'tea cu un num;ar de noduri c'at mai mic, pentru a p;astra performan'ta.
+\par
+Al doilea articol pe care 'il vom prezenta este "Software Cost Estimation using Adaptive Neuro Fuzzy Inference System" \cite{anfiscost}, o lucrare ce folose'ste un model de re'tele neuro-fuzzy pentru a prezenta rezultate experimentale ale estim;arii modelului COCOMO. Autorii prezint'a o metod;a ce implic;a normalizarea datelor de intrare 'inainte ca acestea s;a fie prezentate re'telei, ei suger'and normalizarea min-max. Normalizarea min-max este definit;a ca:
+\begin{equation} 
+x' = \frac{x - min_{x}}{max_{x} - min_{x}} (max\_nou_{x} - min\_nou_{x}) + min\_nou_{x}
+\end{equation}
+Astfel, ei ob'tin un set de date 'incadrat strict 'in intervalul $[-1, 1]$.
+Metodologia lor de lucru a fost de a crea o re'tea ANFIS folosind doar trei caracteristici pentru intrare, 'si av'and o singur;a ie'sire, estimarea de efort. Justificarea autorilor de a folosi doar trei intr;ari nu este clar;a, ei enun't'and c;a num;arul maxim de parametri pentru o re'tea ANFIS trebuie sa fie 3. 'In continuare, ei consider;a c;a una dintre cele mai importante caracteristici este num;arul de linii de cod, astfel 'inc'at le r;am'an de determinat ultimele dou;a intr;ari pentru re'tea, folosind o abordare prin 'incerc;ari repetate p'an;a c'and au ob'tinut cea mai mic;a eroare de antrenare peste setul de date restr'ans la cele trei caracteristici. Autorii concluzioneaz;a aceast;a parte prin g;asirea celor trei caracteristici care ofer;a cea mai mic;a eroare de antrenare: \textbf{TURN, VIRT} 'si \textbf{LOC}.
+\par
+Arhitectura re'telei propuse este de a folosi c'ate treizeci de func'tii de apartenen't;a pentru fiecare nod de intrare, treizeci de clustere 'si treizeci de func'tii de apartenen't;a pentru ie'sire folosind algoritmul de clustering FCM. 
+\par
+Lucrarea este concluzionat;a de c;atre rezultate, care au o acurate'te bun;a, 'in ciuda faptului c;a s-au folosit doar trei caracteristici din totalul de 'sasesprezece pe care le ofer;a setul de date per proiect. Astfel, noi am considerat c;a re'telele neuro-fuzzy sunt o direc'tie bun;a de cercetare pentru a ob'tine estim;ari cat mai bune 'in ceea ce prive'ste estimarea costului de dezvoltare software.
+\par

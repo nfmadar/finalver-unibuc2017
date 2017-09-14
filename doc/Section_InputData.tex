@@ -1,0 +1,74 @@
+\section {Seturi de date}
+
+\subsection{Descriere}
+
+\paragraph{}
+
+Setul de date folosit 'in aceast;a lucrare a fost compus din concatenarea a dou;a seturi de date \cite{promise1, promise2}. Acestea sunt o reprezentare a mai multor proiecte 'in formatul propus de c;atre modelul COCOMO \cite{boehm}, mai specific de forma sa COCOMO '81. 
+\par
+Modelul COCOMO este un model de estimare a costului de dezvoltare software procedural, parametrii s;ai fiind deriva'ti dintr-o formul;a de regresie aplicat;a peste date din proiecte istorice (un num;ar de 63 pentru COCOMO '81). Aceste date au fost extrase de la compania TRW Aerospace, unde Barry W. Boehm, autorul modelului, a ocupat pozi'tia de director de cercetare 'in software 'si tehnologie. Studiul s;au a inclus proiecte cu dimensiuni 'intre 2000 'si 100000 de linii de cod, scrise 'in diverse limbaje de programare 'si dezvoltate folosind metodologia \textit{waterfall}, care era cea mai prevalent;a la nivelul anilor 80.
+\par
+Primul set de date cuprinde 60 de proiecte dezvoltate 'in mai multe centre ale NASA din perioada anilor 1980 si 1990, av'and toate cele 17 atribute ale modelului. Al doilea set de date este constituit din 63 de de proiecte, fiind chiar datele dup;a care s-a efectuat calibrarea modelului COCOMO.
+
+\subsection{Caracteristicile setului de date}
+\par
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+Caracteristic;a & Very Low & Low & Nominal & High & Very High & Extra High \\ \hline \hline
+Fiabilitatea softului necesar;a & 0.75 & 0.88 & 1.00 & 1.15 & 1.40 & \\ \hline
+Dimensiunea bazei de date &  & 0.94 & 1.00 & 1.08 & 1.16 & \\ \hline
+Complexitatea produslui & 0.70 & 0.85 & 1.00 & 1.15 & 1.30 & 1.65 \\ \hline
+Constr'angeri de performan't;a la rulare & & & 1.00 & 1.11 & 1.30 & 1.66 \\ \hline
+Constr'ageri de memorie & & & 1.00 & 1.06 & 1.21 & 1.56 \\ \hline
+Volatilitatea mediului de ma'sini virtuale & & 0.87 & 1.00 & 1.15 & 1.30 & \\ \hline
+Timpul necesar pentru schimb;ari & & 0.87 & 1.00 & 1.07 & 1.15 & \\ \hline
+Capabilitatea anali'stilor & 1.46 & 1.19 & 1.00 & 0.86 & 0.71 & \\ \hline
+Experien;t'a 'in aplica'tii & 1.29 & 1.13 & 1.00 & 0.91 & 0.82 & \\ \hline
+Capabilitatea inginerilor soft & 1.42 & 1.17 & 1.00 & 0.86 & 0.70 & \\ \hline
+Experien't;a cu ma'sinile virtuale & 1.21 & 1.10 & 1.00 & 0.90 & & \\ \hline
+Experien't;a cu limbajul de programare & 1.14 & 1.07 & 1.00 & 0.95 & & \\ \hline
+Aplicarea metodelor de inginerie soft & 1.24 & 1.10 & 1.00 & 0.91 & 0.82 & \\ \hline
+Folosirea uneltelor software & 1.24 & 1.10 & 1.00 & 0.91 & 0.83 & \\ \hline
+Stricte'tea planific'arii & 1.23 & 1.08 & 1.00 & 1.04 & 1.10 & \\ \hline
+\end{tabular}
+\caption{Valorile posibile pentru multiplicatorii de efort.}
+\end{center}
+\end{table}
+\par
+Fiecare din cele 15 caracteristici prezente in tabelul de mai sus primesc un multiplicator de efort corespunz;ator cu 'incadrarea lor in tabel. Produsul tuturor multiplicatorilor de efort se nume'ste factor de ajustare a efortului (EAF);\ valorile tipice se afl;a 'intre 0.9 'si 1.4.
+\par
+Pornind de la aceste valori, formula modelului intermediar este exprimat;a prin:
+\begin{equation}
+E = a_{i} \cdot (KLoC)^{b_{i}} \cdot (EAF)
+\end{equation}
+unde E este efortul aplicat in luni-persoan;a, KLoC este num;arul estimat de mii de linii de cod livrate 'in proiect, iar EAF este factorul de ajustare a efortului. Tabela 4.2 ofer;a valorile pentru $a_{i}$ 'si $b_{i}$.
+\begin{table}[!htbp]
+\begin{center}
+\begin{tabular}{| c | c | c |}
+\hline
+Proiect software & $a_{i}$ & $b_{i}$ \\ \hline \hline
+Organic & 3.2 & 1.05 \\ \hline
+Semi-deta'sat & 3.0 & 1.12 \\ \hline
+'Incorporat & 2.8 & 1.20 \\ \hline
+\end{tabular}
+\caption{Valorile posibile pentru coeficientul $a_{i}$ 'si exponentul $b_{i}$.}
+\end{center}
+\end{table}
+\par
+Cele trei clase de proiecte reg;asite 'in tabel sunt explicate astfel:
+\begin{itemize}
+\item Proiect organic: echipe "mici" cu experien't;a "bun;a" ce lucreaz;a cu cerin'te "mai pu'tin rigide"
+\item Proiect semi-deta'sat: echipe "medii" ca dimensiune, cu experien't;a mixt;a ce lucreaz;a cu cerin'te mixte din punct de vedere al rigidit;a'tii
+\item Proiect 'incorporat: proiecte dezvoltate cu constr'angeri "tari". Acestea sunt o combina'tie de proiecte organice 'si semi-organice.
+\end{itemize}
+\par
+Urm'and ordinea din tabela 4.1 enun't;am 'in continuare abrevierile multiplicatorilor de efort. Acestea sunt: \textbf{RELY, DATA, CPLX, TIME, STOR, VIRT, TURN, ACAP, AEXP, PCAP, VEXP, LEXP, MODP, TOOL} 'si \textbf{SCED}.
+\par
+Din tabela 4.1 putem deduce c;a multiplicatorii pot fi 'imp;ar'ti'ti 'in dou;a categorii:
+\begin{itemize}
+\item Cre;sterea valorii implic;a sc;aderea efortului: ACAP, PCAP, AEXP, MODP, TOOL, VEXP 'si LEXP.
+\item Sc;aderea valorii implic;a cre'sterea efortului: STOR, DATA, TIME, TURN, VIRT, CPLX 'si RELY.
+\end{itemize}
+Multiplicatorul SCED este unic: el nu poate fi exprimat 'intr-un mod "monoton" i.e. valorile numerice din jurul punctului nominal cresc at'at atunci c'and factorii tind spre "Very Low" c'at 'si atunci cand ace'stia tind spre "Extra High" astfel 'inc'at corelarea cu efortul devine 'in forma de "U", deci, a le oferi programatorilor prea mult sau prea pu'tin timp pentru dezvoltare este d;aun;ator pentru 'intreg sistemul.

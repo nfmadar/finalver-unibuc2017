@@ -1,0 +1,46 @@
+\section {Re'tele neuronale}
+
+\subsection{Perceptronul}
+\paragraph{}
+
+Perceptronul este un model matematic inspirat din biologia neuronului uman, folosit 'in 'inv;a'tarea supervizat;a a clasificatorilor binari. Acesta permite at'at 'inv;a'tare on-line, c'at 'si off-line. Formal, definim perceptronul ca fiind o func'tie $f$ care pentru un vector de numere reale $x$ ofer'a un rezultat $f(x)$, $f(x)$ fiind o valoare singular;a.
+\begin{equation}
+f(x)= \begin{cases}
+		1 \quad \text{dac;a} \quad w \cdot x > 0 \\
+		0 \quad \text{altfel}
+	\end{cases}
+\end{equation}
+unde $w$ este vectorul de ponderi, $w \cdot x$ este produsul $\displaystyle \sum_{i=1}^{m} w_{i}x_{i}$, unde $m$ este num;arul de intr;ari pentru perceptron iar $b$ este biasul. Biasul deplaseaz;a linia de separare fa't;a de origine 'si nu depinde de valorile de intrare.
+\par
+Av'and vectorul $x$ definit ca $\{x^1, d^1\}, ..., \{x^m, d^m\}$, unde $x^k \in \mathbb{R}^{n+1}$ este al $k$-lea punct de intrare, iar $d^k \in \{-1, +1\}, k = \bar{1, m}$ este 'tinta pentru cea de-a $k$-a intrare, $x$ se nume'ste mul'timea de antrenare.
+\par
+Prin urmare, dorim ca perceptronul s;a ob'tin;a ie'sirea $y^k$ pentru fiecare $x^k$ astfel 'inc'at $y^k = d^k$. O regul;a posibil;a pentru a ajunge la o solu'tie $w^*$ este regula 'inv;a'tarii perceptronului \cite{statlearn}:
+\begin{equation}
+\begin{cases}
+	w^1 \quad \text{arbitrar} \\
+	w^{k+1} = w^k + \rho(d^k - y^k)x^k \quad k = 1, 2, ...
+\end{cases}
+\end{equation}
+unde $\rho$ este o constant;a poziti;va numit;a rat;a de 'inv;a'tare. Aceast'a regul;a poate fi generalizat;a s;a includ;a o variabil;a incremental;a $\rho^k$ 'si o margine pozitiv;a fixat;a $b$. Utiliz'and aceast;a regul;a, vectorul de ponderi se actualizeaz;a doar dac;a $(z^k)^Tw^k$ nu dep;a'se'ste pragul $b$.
+\begin{equation}
+\begin{cases}
+w^1 \quad \text{arbitrar} \\
+w^{k+1} = w^k + \rho^k z^k \quad \text{dac;a } (z^k)^T w^k \leq b \\
+w^{k+1} = w^k  \quad \text{altfel}
+\end{cases}
+\end{equation}
+\newpage
+\subsection{Re'tele multi-strat}
+\paragraph{}
+
+O re'tea multi-strat este compus;a dintr-o mul'time de perceptroni, dispu'si astfel 'inc'at, p'an;a la ultimul strat (numit stratul de ie'sire), rezultatele unui perceptron s;a devin;a intr;arile altui perceptron de pe stratul urm;ator. Aceast;a arhitectur;a permite, printre altele, aplicarea algoritmului de backpropagare a erorilor, ajust'and astfel ponderile fiec;arui perceptron din re'tea.
+\par
+Algoritmul backprop calculeaz;a gradientul func'tiei de eroare. Func'tia de eroare transform;a valori formate din una sau mai multe variabile 'intr-un num;ar real ce reprezint;a, la nivel intuitiv, un "cost" asociat acestor valori. 'In cazul particular al backprop-ului, func'tia de eroare calculeaz;a diferen'ta dintre rezultatul oferit de c;atre re'tea 'intr-un anumit punct 'si valoarea real;a.
+\par
+Algoritmul de backprop are urm;atoarea form;a: \\
+Fie $N$ o re'tea neuronal;a cu $e$ conexiuni, $m$ intr;ari 'si $n$ ie'siri. \\
+$x$ un vector din $\mathbb{R}^m$, $y$ un vector din $\mathbb{R}^n$, $w$ un vector din $\mathbb{R}^e$, denumi'ti intr;ari, ie'siri, respectiv ponderi. \\
+Re'teaua neuronal;a corespunde unei func'tii $y = f_{N}(w, x)$ care, date fiind ponderile $w$, ofer;a o etichet;a $y$ pentru intr;arile $x$. \\
+Optimizarea prime'ste perechi de forma $(x_i, y_i)$ 'si produce ponderi de forma $w_i$, pornind de la o pondere ini'tial;a $w_0$. \\
+Aceste ponderi sunt calculate iterativ: calculeaz;a $w_i$ pornind de la $(x_i, y_i, w_{i-1})$;\ algoritmul ofer;a un vector nou, $w_p$, 'si o func'tie nou;a $x \mapsto f_N(w_p, x)$. Acest pas se repet;a pentru toate perechile $(x_i, y_i)$. \\
+Calculul lui $w_1$ din $(x_1, y_1, w_0)$ are loc prin presupunerea unei variabile $w$, 'si aplicarea gradientului descendent pe func'tia $w \mapsto E(f_N(w, x_1), y_1)$ pentru a g;asi un minim local, pornind de la $w = w_0$;\ $E$ fiind func'tia de eroare. Acest pas 'il face pe $w_1$ ponderea minimizat;a g;asit;a de c;atre gradientul descendent.

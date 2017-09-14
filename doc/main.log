@@ -1,0 +1,1117 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.21)  11 SEP 2017 23:04
+entering extended mode
+**D:/code/thesis_25august/docs/main.tex
+(D:/code/thesis_25august/docs/main.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count99
+\calc@Bcount=\count100
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count101
+\calc@Cskip=\skip48
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count102
+\l_MT_multwidth_dim=\dimen114
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen115
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen116
+\l_MT_above_intertext_sep=\dimen117
+\l_MT_below_intertext_sep=\dimen118
+\l_MT_above_shortintertext_sep=\dimen119
+\l_MT_below_shortintertext_sep=\dimen120
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("D:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen123
+\WF@size=\dimen124
+\c@WF@wrappedlines=\count105
+\WF@box=\box30
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language76
+LaTeX Info: Redefining \_ on input line 43.
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.
+sty (C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+Package: expl3 2017/07/19 L3 programming layer (loader) 
+
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex
+Package: expl3 2017/07/19 L3 programming layer (code)
+\c_max_int=\count106
+\l_tmpa_int=\count107
+\l_tmpb_int=\count108
+\g_tmpa_int=\count109
+\g_tmpb_int=\count110
+\g__intarray_font_int=\count111
+\g__prg_map_int=\count112
+\c_log_iow=\count113
+\l_iow_line_count_int=\count114
+\l__iow_line_target_int=\count115
+\l__iow_one_indent_int=\count116
+\l__iow_indent_int=\count117
+\c_zero_dim=\dimen125
+\c_max_dim=\dimen126
+\l_tmpa_dim=\dimen127
+\l_tmpb_dim=\dimen128
+\g_tmpa_dim=\dimen129
+\g_tmpb_dim=\dimen130
+\c_zero_skip=\skip50
+\c_max_skip=\skip51
+\l_tmpa_skip=\skip52
+\l_tmpb_skip=\skip53
+\g_tmpa_skip=\skip54
+\g_tmpb_skip=\skip55
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count118
+\c__fp_leading_shift_int=\count119
+\c__fp_middle_shift_int=\count120
+\c__fp_trailing_shift_int=\count121
+\c__fp_big_leading_shift_int=\count122
+\c__fp_big_middle_shift_int=\count123
+\c__fp_big_trailing_shift_int=\count124
+\c__fp_Bigg_leading_shift_int=\count125
+\c__fp_Bigg_middle_shift_int=\count126
+\c__fp_Bigg_trailing_shift_int=\count127
+\c__fp_rand_size_int=\count128
+\c__fp_rand_four_int=\count129
+\c__fp_rand_eight_int=\count130
+\l__sort_length_int=\count131
+\l__sort_min_int=\count132
+\l__sort_top_int=\count133
+\l__sort_max_int=\count134
+\l__sort_true_max_int=\count135
+\l__sort_block_int=\count136
+\l__sort_begin_int=\count137
+\l__sort_end_int=\count138
+\l__sort_A_int=\count139
+\l__sort_B_int=\count140
+\l__sort_C_int=\count141
+\l__tl_build_start_index_int=\count142
+\l__tl_build_index_int=\count143
+\l__tl_analysis_normal_int=\count144
+\l__tl_analysis_index_int=\count145
+\l__tl_analysis_nesting_int=\count146
+\l__tl_analysis_type_int=\count147
+\l__regex_internal_a_int=\count148
+\l__regex_internal_b_int=\count149
+\l__regex_internal_c_int=\count150
+\l__regex_balance_int=\count151
+\l__regex_group_level_int=\count152
+\l__regex_mode_int=\count153
+\c__regex_cs_in_class_mode_int=\count154
+\c__regex_cs_mode_int=\count155
+\l__regex_catcodes_int=\count156
+\l__regex_default_catcodes_int=\count157
+\c__regex_catcode_D_int=\count158
+\c__regex_catcode_S_int=\count159
+\c__regex_catcode_L_int=\count160
+\c__regex_catcode_O_int=\count161
+\c__regex_catcode_A_int=\count162
+\c__regex_all_catcodes_int=\count163
+\l__regex_show_lines_int=\count164
+\l__regex_min_state_int=\count165
+\l__regex_max_state_int=\count166
+\l__regex_left_state_int=\count167
+\l__regex_right_state_int=\count168
+\l__regex_capturing_group_int=\count169
+\l__regex_min_pos_int=\count170
+\l__regex_max_pos_int=\count171
+\l__regex_curr_pos_int=\count172
+\l__regex_start_pos_int=\count173
+\l__regex_success_pos_int=\count174
+\l__regex_curr_char_int=\count175
+\l__regex_curr_catcode_int=\count176
+\l__regex_last_char_int=\count177
+\l__regex_case_changed_char_int=\count178
+\l__regex_curr_state_int=\count179
+\l__regex_step_int=\count180
+\l__regex_min_active_int=\count181
+\l__regex_max_active_int=\count182
+\l__regex_replacement_csnames_int=\count183
+\l__regex_match_count_int=\count184
+\l__regex_min_submatch_int=\count185
+\l__regex_submatch_int=\count186
+\l__regex_zeroth_submatch_int=\count187
+\g__debug_trace_regex_int=\count188
+\c_empty_box=\box31
+\l_tmpa_box=\box32
+\l_tmpb_box=\box33
+\g_tmpa_box=\box34
+\g_tmpb_box=\box35
+\l__box_top_dim=\dimen131
+\l__box_bottom_dim=\dimen132
+\l__box_left_dim=\dimen133
+\l__box_right_dim=\dimen134
+\l__box_top_new_dim=\dimen135
+\l__box_bottom_new_dim=\dimen136
+\l__box_left_new_dim=\dimen137
+\l__box_right_new_dim=\dimen138
+\l__box_internal_box=\box36
+\l__coffin_internal_box=\box37
+\l__coffin_internal_dim=\dimen139
+\l__coffin_offset_x_dim=\dimen140
+\l__coffin_offset_y_dim=\dimen141
+\l__coffin_x_dim=\dimen142
+\l__coffin_y_dim=\dimen143
+\l__coffin_x_prime_dim=\dimen144
+\l__coffin_y_prime_dim=\dimen145
+\c_empty_coffin=\box38
+\l__coffin_aligned_coffin=\box39
+\l__coffin_aligned_internal_coffin=\box40
+\l_tmpa_coffin=\box41
+\l_tmpb_coffin=\box42
+\l__coffin_display_coffin=\box43
+\l__coffin_display_coord_coffin=\box44
+\l__coffin_display_pole_coffin=\box45
+\l__coffin_display_offset_dim=\dimen146
+\l__coffin_display_x_dim=\dimen147
+\l__coffin_display_y_dim=\dimen148
+\l__coffin_bounding_shift_dim=\dimen149
+\l__coffin_left_corner_dim=\dimen150
+\l__coffin_right_corner_dim=\dimen151
+\l__coffin_bottom_corner_dim=\dimen152
+\l__coffin_top_corner_dim=\dimen153
+\l__coffin_scaled_total_height_dim=\dimen154
+\l__coffin_scaled_width_dim=\dimen155
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count189
+\l__driver_tmp_box=\box46
+))
+Package: xparse 2017/07/19 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count190
+\g__xparse_grabber_int=\count191
+\l__xparse_m_args_int=\count192
+\l__xparse_mandatory_args_int=\count193
+\l__xparse_v_nesting_int=\count194
+) (C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
+Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+\c@abspage=\count196
+Package zref Info: New property: abspage on input line 62.
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+\mdf@templength=\skip56
+\c@mdf@globalstyle@cnt=\count197
+\mdf@skipabove@length=\skip57
+\mdf@skipbelow@length=\skip58
+\mdf@leftmargin@length=\skip59
+\mdf@rightmargin@length=\skip60
+\mdf@innerleftmargin@length=\skip61
+\mdf@innerrightmargin@length=\skip62
+\mdf@innertopmargin@length=\skip63
+\mdf@innerbottommargin@length=\skip64
+\mdf@splittopskip@length=\skip65
+\mdf@splitbottomskip@length=\skip66
+\mdf@outermargin@length=\skip67
+\mdf@innermargin@length=\skip68
+\mdf@linewidth@length=\skip69
+\mdf@innerlinewidth@length=\skip70
+\mdf@middlelinewidth@length=\skip71
+\mdf@outerlinewidth@length=\skip72
+\mdf@roundcorner@length=\skip73
+\mdf@footenotedistance@length=\skip74
+\mdf@userdefinedwidth@length=\skip75
+\mdf@needspace@length=\skip76
+\mdf@frametitleaboveskip@length=\skip77
+\mdf@frametitlebelowskip@length=\skip78
+\mdf@frametitlerulewidth@length=\skip79
+\mdf@frametitleleftmargin@length=\skip80
+\mdf@frametitlerightmargin@length=\skip81
+\mdf@shadowsize@length=\skip82
+\mdf@extratopheight@length=\skip83
+\mdf@subtitleabovelinewidth@length=\skip84
+\mdf@subtitlebelowlinewidth@length=\skip85
+\mdf@subtitleaboveskip@length=\skip86
+\mdf@subtitlebelowskip@length=\skip87
+\mdf@subtitleinneraboveskip@length=\skip88
+\mdf@subtitleinnerbelowskip@length=\skip89
+\mdf@subsubtitleabovelinewidth@length=\skip90
+\mdf@subsubtitlebelowlinewidth@length=\skip91
+\mdf@subsubtitleaboveskip@length=\skip92
+\mdf@subsubtitlebelowskip@length=\skip93
+\mdf@subsubtitleinneraboveskip@length=\skip94
+\mdf@subsubtitleinnerbelowskip@length=\skip95
+
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\mdframed\md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box47
+\mdf@footnotebox=\box48
+\mdf@splitbox@one=\box49
+\mdf@splitbox@two=\box50
+\mdf@splitbox@save=\box51
+\mdfsplitboxwidth=\skip96
+\mdfsplitboxtotalwidth=\skip97
+\mdfsplitboxheight=\skip98
+\mdfsplitboxdepth=\skip99
+\mdfsplitboxtotalheight=\skip100
+\mdfframetitleboxwidth=\skip101
+\mdfframetitleboxtotalwidth=\skip102
+\mdfframetitleboxheight=\skip103
+\mdfframetitleboxdepth=\skip104
+\mdfframetitleboxtotalheight=\skip105
+\mdffootnoteboxwidth=\skip106
+\mdffootnoteboxtotalwidth=\skip107
+\mdffootnoteboxheight=\skip108
+\mdffootnoteboxdepth=\skip109
+\mdffootnoteboxtotalheight=\skip110
+\mdftotallinewidth=\skip111
+\mdfboundingboxwidth=\skip112
+\mdfboundingboxtotalwidth=\skip113
+\mdfboundingboxheight=\skip114
+\mdfboundingboxdepth=\skip115
+\mdfboundingboxtotalheight=\skip116
+\mdf@freevspace@length=\skip117
+\mdf@horizontalwidthofbox@length=\skip118
+\mdf@verticalmarginwhole@length=\skip119
+\mdf@horizontalspaceofbox=\skip120
+\mdfsubtitleheight=\skip121
+\mdfsubsubtitleheight=\skip122
+\c@mdfcountframes=\count198
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
+.................................................
+\mdf@envdepth=\count199
+\c@mdf@env@i=\count266
+\c@mdf@env@ii=\count267
+\c@mdf@zref@counter=\count268
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) ("D:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-romanian\romanian.l
+df
+Language: romanian 2005/03/31 v1.2l Romanian support from the babel system
+ ("D:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count269
+\U@D=\dimen156
+)))
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\latex\combelow\combelow.sty
+Package: combelow 2010/05/02 v0.99f comma below command
+)
+Package babel Info: Making ' an active character on input line 18.
+Package babel Info: Making ; an active character on input line 19.
+
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+(C:\Users\nickkk\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count270
+\scratchdimen=\dimen157
+\scratchbox=\box52
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen158
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks24
+) ("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box53
+ [1
+
+]
+\openout2 = `Title_Page.aux'.
+
+
+(D:/code/thesis_25august/docs\Title_Page.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (15.0pt too wide) in paragraph at lines 19--29
+[]$[]$ 
+ []
+
+) [2
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [3
+
+]
+No file main.toc.
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+[4]
+\openout2 = `Section_Introduction.aux'.
+
+ (D:/code/thesis_25august/docs\Section_Introduction.tex
+Overfull \hbox (3.88948pt too wide) in paragraph at lines 5--6
+ [] \OT1/cmr/m/n/10 Prin lu-cra-rea de fa[]a do-rim sa pre-zentam un stu-diu
+ asu-pra re[]elelor neuro-fuzzy
+ []
+
+
+LaTeX Warning: Citation `anfis' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation `boehm' on page 1 undefined on input line 11.
+
+
+Overfull \hbox (1.57698pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/10 Modelul CO-COMO da-teaza din 1981 ^n car-tea lui Barry W. B
+o-ehm \OT1/cmr/m/it/10 "Software
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+
+Overfull \hbox (0.94498pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 bun ^ntre da-tele de in-trare (15 fac-tori de cost []i o es-ti
+-mare nu-me-rica a di-men-siu-nii
+ []
+
+
+Overfull \hbox (4.8339pt too wide) in paragraph at lines 20--21
+\OT1/cmr/m/n/10 teh-ni-cile fo-lo-site ^n con-stru-i-rea []i an-tre-na-rea une
+i re[]ele neuro-fuzzy peste mo-de-lul
+ []
+
+) [1
+
+]
+\openout2 = `Section_Prezentarea_Domeniului.aux'.
+
+ (D:/code/thesis_25august/docs\Section_Prezentarea_Domeniului.tex
+Overfull \hbox (9.195pt too wide) in paragraph at lines 6--7
+ [] \OT1/cmr/m/n/10 Exista o mul[]ime de ar-ti-cole scrise at^at pe tema es-ti
+marii cos-tu-ri-lor de dezvol-tare
+ []
+
+
+Overfull \hbox (0.38951pt too wide) in paragraph at lines 6--7
+\OT1/cmr/m/n/10 fo-lo-sind CO-COMO, c^at []i pen-tru es-ti-ma-rea aces-tora fo-
+lo-sind teh-nici neuro-fuzzy.
+ []
+
+
+LaTeX Warning: Citation `cocomoneuralnets' on page 2 undefined on input line 8.
+
+
+
+Overfull \hbox (1.81992pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/n/10 Ne-u-ral Ne-tworks" [[]], o lu-crare ce pre-zinta re-zul-ta-te
+le ex-pe-ri-men-tale ale es-timarii
+ []
+
+
+Overfull \hbox (6.74129pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/10 Calculeaza ie[]irile (i.e. efor-tul) pe stra-tul de ie[]ire 
+fo-lo-sind aceea[]i pro-ce-dura
+ []
+
+
+Overfull \hbox (3.00053pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10 Compara efor-tul real cu cel es-ti-mat; daca diferen[]a est
+e ^n li-mi-tele ac-cep-tate
+ []
+
+
+Overfull \hbox (0.55614pt too wide) in paragraph at lines 34--35
+\OT1/cmr/m/n/10 ca o re[]ea ne-u-ro-nala ofera o acurate[]e ac-cep-ta-bila 
+pen-tru predic[]ie asu-pra da-te-lor
+ []
+
+[2
+
+
+]
+
+LaTeX Warning: Citation `anfiscost' on page 3 undefined on input line 36.
+
+
+Overfull \hbox (11.7227pt too wide) in paragraph at lines 43--44
+[]\OT1/cmr/m/n/10 Arhitectura re[]elei pro-puse este de a fo-losi c^ate trei-ze
+ci de func[]ii de apartenen[]a
+ []
+
+
+Overfull \hbox (11.94492pt too wide) in paragraph at lines 43--44
+\OT1/cmr/m/n/10 pen-tru fi-e-care nod de in-trare, trei-zeci de clus-tere []i t
+rei-zeci de func[]ii de apartenen[]a
+ []
+
+) [3]
+\openout2 = `Section_ProgrammingEnv.aux'.
+
+ (D:/code/thesis_25august/docs\Section_ProgrammingEnv.tex
+Overfull \hbox (6.45808pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/it/10 to-ol-bo-xuri\OT1/cmr/m/n/10 ) pen-tru di-verse aplica[]ii ^n
+ ma-te-ma-tica nu-me-rica []i sim-bo-lica, pro-ce-sare
+ []
+
+) [4
+
+
+]
+\openout2 = `Section_InputData.aux'.
+
+ (D:/code/thesis_25august/docs\Section_InputData.tex
+
+LaTeX Warning: Citation `promise1' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `promise2' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `boehm' on page 5 undefined on input line 7.
+
+
+Overfull \hbox (127.36195pt too wide) in paragraph at lines 17--36
+ [] 
+ []
+
+
+Overfull \hbox (0.36174pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/10 mul-ti-pli-ca-to-ri-lor de efort se nume[]te fac-tor de ajus-ta
+re a efor-tu-lui (EAF); va-lo-rile
+ []
+
+[5
+
+
+]
+Overfull \hbox (19.91739pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/10 Urm^and or-di-nea din ta-bela 4.1 enun[]am ^n con-ti-nu-are
+ abre-vi-e-rile mul-ti-pli-ca-to-ri-lor
+ []
+
+
+Overfull \hbox (3.445pt too wide) in paragraph at lines 71--72
+[]\OT1/cmr/m/n/10 Cre;sterea va-lo-rii im-plica scaderea efor-tu-lui: ACAP, P
+CAP, AEXP, MODP,
+ []
+
+) [6]
+\openout2 = `Section_FuzzyLogic.aux'.
+
+ (D:/code/thesis_25august/docs\Section_FuzzyLogic.tex
+
+LaTeX Warning: Citation `klirfuzzy' on page 7 undefined on input line 21.
+
+
+Overfull \hbox (0.9913pt too wide) in paragraph at lines 19--22
+\OT1/cmr/m/n/10 ^n con-trast cu va-ri-a-bi-lele crisp, ce nu au aceasta pu-te
+re. Mai mult, de[]i va-ri-a-bi-lele
+ []
+
+
+Overfull \hbox (8.88019pt too wide) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 fu-zzy ce sunt de-fi-nite peste mul[]imea $\U/msb/m/n/10 R$ \OT
+1/cmr/m/n/10 a nu-me-re-lor re-ale. Func[]iile de apartenen[]a
+ []
+
+[7
+
+
+]
+Overfull \hbox (0.63954pt too wide) in paragraph at lines 41--42
+[]\OT1/cmr/m/n/10 Av^and con-cep-tul de numar fu-zzy pu-tem acum in-tro-duce n
+o[]iunea de va-ri-a-bile
+ []
+
+
+Overfull \hbox (14.55595pt too wide) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/10 Orice va-ri-a-bila ling-vis-tica este ca-rac-te-ri-zata de
+ catre un cvin-tu-plu $(\OML/cmm/m/it/10 v; T; X; g; m\OT1/cmr/m/n/10 )$,
+ []
+
+)
+Overfull \hbox (8.7228pt too wide) in paragraph at lines 54--60
+\OT1/cmr/m/n/10 re-ale ce re-pre-zinta un spec-tru de va-lori ale va-ri-a-bi-l
+ei este parti[]ionat ^n su-bin-ter-vale
+ []
+
+
+Overfull \hbox (12.4172pt too wide) in paragraph at lines 54--60
+\OT1/cmr/m/n/10 aceste eti-chete sunt con-si-de-rate starile va-ri-a-bi-lei; s
+tarile oricarei va-ri-a-bile cu-an-ti-zate
+ []
+
+[8] [9]
+\openout2 = `Section_NeuralNets.aux'.
+
+ (D:/code/thesis_25august/docs\Section_NeuralNets.tex) [10
+
+
+]
+\openout2 = `Section_Anfis.aux'.
+
+
+(D:/code/thesis_25august/docs\Section_Anfis.tex
+
+LaTeX Warning: Citation `anfis' on page 11 undefined on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+LaTeX Warning: Citation `anfis' on page 11 undefined on input line 11.
+
+
+LaTeX Warning: Citation `takagisugeno' on page 11 undefined on input line 14.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Overfull \hbox (6.75056pt too wide) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/10 o interfa[]a de fu-z-zi-fi-care ce trans-forma intrarile c
+risp ^n grade de apartenen[]a
+ []
+
+[11
+
+
+]
+
+LaTeX Warning: Command \u invalid in math mode on input line 35.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.35 ...e elementul identitate i.e. $T(a, 1) = a$}
+                                                  , de obicei multiplicare)
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.35 ...e elementul identitate i.e. $T(a, 1) = a$}
+                                                  , de obicei multiplicare)
+? 
+Missing character: There is no è in font cmex8!
+
+Overfull \hbox (21.34789pt too wide) in paragraph at lines 31--36
+\OT1/cmr/m/n/10 re-guli (com-bi-na-rea are loc printr-un ope-ra-tor T-normat[],
+ de obi-cei mul-ti-pli-care) 
+ []
+
+
+Overfull \hbox (9.91121pt too wide) in paragraph at lines 42--43
+ [] \OT1/cmr/m/n/10 Re[]elele adap-tive sunt un su-per-set al mul[]imii re[]ele
+lor \OT1/cmr/m/it/10 fe-e-d-forward \OT1/cmr/m/n/10 cu ca-pa-ci-tate
+ []
+
+
+Overfull \hbox (6.77841pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 struc-turi ce con[]in no-duri []i legaturi direc[]ionale pen-t
+ru in-ter-co-nec-ta-rea no-du-ri-lor,
+ []
+
+<adaptive_net.png, id=63, 395.22656pt x 117.43875pt>
+File: adaptive_net.png Graphic file (type png)
+ <use adaptive_net.png>
+Package pdftex.def Info: adaptive_net.png used on input line 46.
+(pdftex.def)             Requested size: 345.0pt x 102.51492pt.
+
+Overfull \hbox (3.63023pt too wide) in paragraph at lines 44--49
+\OT1/cmr/m/n/10 des-cen-dent []i pe re-gula ^nlan[]uirii. Dar, de-o-a-rece me
+-toda gra-dien-tu-lui des-cen-dent
+ []
+
+[12 <D:/code/thesis_25august/docs/adaptive_net.png>]
+Overfull \hbox (12.19505pt too wide) in paragraph at lines 53--54
+ [] \OT1/cmr/m/n/10 A[]a cum am enun[]at ^nainte, o re[]ea adap-tiva este o r
+e[]ea multi-strat fe-e-d-forward
+ []
+
+
+Overfull \hbox (1.13948pt too wide) in paragraph at lines 53--54
+\OT1/cmr/m/n/10 im-por-tanta este ca legaturile din-tre no-duri in-dica doa
+r direc[]ia pe care o par-curge
+ []
+
+[13]
+Overfull \hbox (17.22293pt too wide) in paragraph at lines 111--112
+ [] \OT1/cmr/m/n/10 Re-gula de ^nva[]are hi-brida off-line pro-pune o combin
+a[]ie ^ntre me-toda gra-dien-tu-lui
+ []
+
+[14]
+
+LaTeX Warning: Citation `anfis' on page 15 undefined on input line 133.
+
+[15]
+Overfull \hbox (1.52846pt too wide) in paragraph at lines 145--146
+[]\OT1/cmr/m/n/10 Putem acum sa com-binam me-toda gra-dien-tu-lui []i me-toda
+ es-timarii patratelor
+ []
+
+
+Overfull \hbox (22.42429pt too wide) in paragraph at lines 147--148
+[]\OT1/cmr/m/n/10 Pentru va-lori fi-xate date pa-ra-me-tri-lor din $\OML/cmm/m/
+it/10 S[]$\OT1/cmr/m/n/10 , este ga-ran-tat ca va-lo-rile pa-ra-me-tri-lor
+ []
+
+[16]
+Overfull \hbox (17.75053pt too wide) in paragraph at lines 162--163
+\OT1/cmr/m/n/10 pen-tru iden-ti-fi-ca-rea pa-ra-me-tri-lor ^n sis-te-mele cu c
+a-rac-te-ris-tici care sunt ^n schim-bare.
+ []
+
+[17]
+Overfull \hbox (4.30618pt too wide) in paragraph at lines 177--180
+ [] []\OT1/cmr/m/n/10 tiind acum defini[]ia, ar-hi-tec-tura []i re-gu-lile de ^
+nva[]are ale unei re[]ele adap-tive,
+ []
+
+
+Overfull \hbox (4.5747pt too wide) in paragraph at lines 177--180
+\OT1/cmr/m/n/10 fe-e-d-forward. Da-to-rita aces-tor restric[]ii mi-ni-male, ob
+-servam ca aplica[]iile re[]elelor
+ []
+
+<anfisarch.png, id=91, 2180.145pt x 1090.0725pt>
+File: anfisarch.png Graphic file (type png)
+ <use anfisarch.png>
+Package pdftex.def Info: anfisarch.png used on input line 187.
+(pdftex.def)             Requested size: 345.0pt x 172.48572pt.
+ [18 <D:/code/thesis_25august/docs/anfisarch.png>]
+Overfull \hbox (13.11179pt too wide) in paragraph at lines 192--193
+ [] \OT1/cmr/m/n/10 Toate func[]iile de node apar[]in uneia din fa-mi-li-ile de
+ func[]ii de-fi-nite ^n con-ti-nu-are,
+ []
+
+
+Overfull \hbox (11.16734pt too wide) in paragraph at lines 205--207
+\OT1/cmr/m/n/10 pa-ra-me-tri-lor, func[]iile ga-us-siene va-riaza co-res-punz
+ator, arat^and ast-fel di-e-firte
+ []
+
+
+Overfull \hbox (0.96346pt too wide) in paragraph at lines 205--207
+\OT1/cmr/m/n/10 acest strat. Pa-ra-me-trii aces-tui strat se mai nu-mesc []i pa
+-ra-me-tri de pre-mise. 
+ []
+
+) [19]
+\openout2 = `Section_PerformanceMeasurements.aux'.
+
+ (D:/code/thesis_25august/docs\Section_PerformanceMeasurements.tex)
+[20
+
+
+]
+\openout2 = `Section_Results.aux'.
+
+ (D:/code/thesis_25august/docs\Section_Results.tex
+<training_cost.png, id=102, 962.09438pt x 499.11469pt>
+File: training_cost.png Graphic file (type png)
+ <use training_cost.png>
+Package pdftex.def Info: training_cost.png used on input line 9.
+(pdftex.def)             Requested size: 345.0pt x 178.98048pt.
+
+[21
+
+
+ <D:/code/thesis_25august/docs/training_cost.png>]
+<training_estimated.png, id=108, 1010.27437pt x 560.0925pt>
+File: training_estimated.png Graphic file (type png)
+
+<use training_estimated.png>
+Package pdftex.def Info: training_estimated.png used on input line 20.
+(pdftex.def)             Requested size: 345.0pt x 191.26646pt.
+
+Overfull \hbox (7.16731pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 lu-cru nu este neaparat dezi-ra-bil, fi-ind un in-di-ca-tor c
+a mo-de-lul su-fera de over-fit-ting.
+ []
+
+[22 <D:/code/thesis_25august/docs/training_estimated.png>]
+<testing_output.png, id=113, 1072.005pt x 588.69937pt>
+File: testing_output.png Graphic file (type png)
+
+<use testing_output.png>
+Package pdftex.def Info: testing_output.png used on input line 31.
+(pdftex.def)             Requested size: 345.0pt x 189.45659pt.
+) [23 <D:/code/thesis_25august/docs/testing_output.png>]
+\openout2 = `Section_NNResults.aux'.
+
+ (D:/code/thesis_25august/docs\Section_NNResults.tex) [24
+
+
+]
+\openout2 = `Section_Comparison.aux'.
+
+
+(D:/code/thesis_25august/docs\Section_Comparison.tex) [25
+
+
+]
+\openout2 = `Section_Conclusions.aux'.
+
+
+(D:/code/thesis_25august/docs\Section_Conclusions.tex) [26
+
+
+]
+\openout2 = `Section_Bibliography.aux'.
+
+
+(D:/code/thesis_25august/docs\Section_Bibliography.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+[]\OT1/cmr/m/n/10 Promise Software En-gi-ne-e-ring Re-po-si-tory (2004), \OT1/c
+mr/m/it/10 CO-COMO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 Nasa/Software Cost Es-ti-ma-tion\OT1/cmr/m/n/10 . [on-line] Di
+s-po-ni-bil la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 http://promise.site.uottawa.ca/SERepository/datasets/cocomonasa
+[]-v1.arff
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\OT1/cmr/m/n/10 Promise Software En-gi-ne-e-ring Re-po-si-tory (2004), \OT1/c
+mr/m/it/10 CO-COMO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+\OT1/cmr/m/it/10 81/Software Cost Es-ti-ma-tion\OT1/cmr/m/n/10 . [on-line] Dis-
+po-ni-bil la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 http://promise.site.uottawa.ca/SERepository/datasets/cocomo81.a
+rff
+ []
+
+) [27
+
+
+]
+\openout2 = `Section_Annex.aux'.
+
+ (D:/code/thesis_25august/docs\Section_Annex.tex) [28
+
+
+] [29
+
+] (main.aux
+(Title_Page.aux) (Section_Introduction.aux) (Section_Prezentarea_Domeniului.aux
+) (Section_ProgrammingEnv.aux) (Section_InputData.aux) (Section_FuzzyLogic.aux)
+(Section_NeuralNets.aux) (Section_Anfis.aux)
+(Section_PerformanceMeasurements.aux) (Section_Results.aux)
+(Section_NNResults.aux) (Section_Comparison.aux) (Section_Conclusions.aux)
+(Section_Bibliography.aux) (Section_Annex.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12964 strings out of 493323
+ 242685 string characters out of 3139063
+ 308102 words of memory out of 3000000
+ 16299 multiletter control sequences out of 15000+200000
+ 541591 words of font info for 66 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,15n,28p,10422b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (33 pages, 623998 bytes).
+PDF statistics:
+ 199 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
